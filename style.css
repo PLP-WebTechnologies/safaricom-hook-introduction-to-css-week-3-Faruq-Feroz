@@ -1,0 +1,58 @@
+/* External CSS */
+
+/* Changing the background color of the webpage */
+body {
+    background-color: #bbe0f7;
+}
+
+/* Styling links with hover effects */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Element Selector: all h1 elements */
+h1 {
+    font-size: 36px;
+    color: #333;
+    background-color: #efd808;
+}
+p{
+    text-align: center;
+}
+
+/* Class Selector: Applying background color to sections with the 'styled-section' class */
+.styled-section {
+    background-color: #0abd63;
+    padding: 20px;
+}
+
+/* ID Selector: Adding a border to the element with a unique ID */
+#unique-element {
+    border: 2px solid #333;
+    padding: 15px;
+}
+
+/* Card Styles */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.card h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+}
